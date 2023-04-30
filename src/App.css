@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+li{
+  list-style: none;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.form-row{
+  display: flex;
+  flex-direction: column;
+}
+
+#newItem{
+  height: 25px;
+}
+.btn-red{
+  color: red;
+  padding: 0.3em .8em;
+  font-size: .75em;
+  margin-left: 10px;
+}
+.btn-red:hover {
+  border-color: red;
+}
